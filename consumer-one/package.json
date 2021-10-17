@@ -1,0 +1,16 @@
+{
+  "name": "consumer-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "kafkajs": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "sucrase": "^3.20.2"
+  }
+}
